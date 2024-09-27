@@ -15,5 +15,5 @@ logging.basicConfig(
     format="[%(asctime)s] | %(name)s - %(lineno)d | [%(levelname)s]: %(message)s",
 )
 
-if __name__ == "__main__":
-    logging.info("Starting the script")
+# if __name__ == "__main__":
+#     logging.info("Starting the script")

@@ -17,9 +17,9 @@ class MLCustomException(Exception):
         return self.err_msg
     
 
-if __name__ == "__main__":
-    try:
-        a = 1/0
-    except Exception as e:
-        logger.logging.error(MLCustomException(e, sys))
-        raise MLCustomException(e, sys)
+# if __name__ == "__main__":
+#     try:
+#         a = 1/0
+#     except Exception as e:
+#         logger.logging.error(MLCustomException(e, sys))
+#         raise MLCustomException(e, sys)
